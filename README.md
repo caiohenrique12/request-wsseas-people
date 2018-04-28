@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Testes
 
-Things you may want to cover:
+* Para executar teste geral do projeto bastar usar `rspec` no terminal na raiz do projeto.
+* Para saber se a url do web service deu tudo certo use `rspec /spec/routing/pessoas_routing_spec.rb` no terminal na raiz do projeto.
 
-* Ruby version
 
-* System dependencies
+## Para iniciar a aplicação
 
-* Configuration
+  * Com o docker instalado em sua maquina, execute o seguinte comando `sudo docker run -it nouchka/sqlite3`, com isso sua maquina vai estar pronta para rodar a aplicação rails com o sqlite3.
+  * Em seguida execute `sudo docker-compose up`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  Acesse em seu navegador http://localhost:3000/
