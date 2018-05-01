@@ -1,0 +1,18 @@
+.my-3.p-3.bg-white.rounded.box-shadow
+  h4.border-bottom.border-gray.pb-2.mb-0 Lista de Pessoas com CNH
+  - if @pessoas
+    table.table.table-hover
+      thead
+        tr
+          th Nome
+          th CPF
+          th CNH
+      tbody
+        - @pessoas.each do |pessoa|
+          tr
+            td = pessoa["nome"]
+            td = pessoa["cpf"]
+            td = pessoa["cnh"]
+  - else
+    br
+    h5 Nenhuma CNH Registrado
