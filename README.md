@@ -1,5 +1,7 @@
 # README
 
+## Importante a api do java esta iniciada primeiro
+
 ## Testes
 
 * Para executar teste geral do projeto bastar usar `rspec` no terminal na raiz do projeto.
@@ -12,3 +14,7 @@
   * Em seguida execute `sudo docker-compose up`
 
   Acesse em seu navegador http://localhost:3000/
+
+
+## Em caso de bugs
+  Rodar rake tmp:cache:clear

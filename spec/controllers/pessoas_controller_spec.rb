@@ -3,9 +3,9 @@ require 'rails_helper'
 RSpec.describe PessoasController, type: :controller do
 
   describe "GET #index" do
-    it "retorna a lista de pessoas com cnh" do
+    it "Verifica se url da api está acessivel" do
       get :index
-      expect(response).to have_http_status(:success)
+      expect(response).to have_http_status(200)
     end
   end
 
