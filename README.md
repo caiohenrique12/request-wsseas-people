@@ -16,5 +16,5 @@
   Acesse em seu navegador http://localhost:3000/
 
 
-## Em caso de bugs
+## Em caso de erros de permissão
   Rodar rake tmp:cache:clear
